@@ -1,0 +1,279 @@
+body{
+      margin: 0;
+      padding: 0;
+}
+.page{
+      background-color: #1e5b9c;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+}
+.row-img{
+      width: 457px;
+      position: absolute;
+      left: 31%;
+}
+.box{
+      width: 330px;
+      height: 600px;
+      background-color: #ffffff;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      border-radius: 16px;
+      box-shadow: 0px 2px 8px
+}
+.logo-img{
+      position: absolute;
+      top: 90px;
+      left: 85px;
+      margin: auto;
+}
+.img-size{
+      width: 170px;
+      height: auto;
+}
+.sub-box-2{
+      text-align: center;
+      position: absolute;
+      top: 240px;
+      left: 75px;
+      margin: auto;
+}
+.sub-box-2 h3{
+      font-size: 32px;
+      color: #989090;
+      font-weight: 500;    
+}
+.sub-box-2 p{
+      font-size: 14px;
+      color: #bfa7a7;
+      font-weight: 500;    
+}
+.logo-f{
+      position: absolute;
+      left: 32px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #bcc3f7;
+      top: 4px;
+}
+.form .link-f{
+      width: 260px;
+      height: 39px;
+      position: absolute;
+      top: 335px;
+      left: 37px;
+      margin: auto;
+      border-radius: 31px;
+      border: 2px solid #4958a7de;
+      color: #bfa7a7;
+      font-weight: 500;
+      transition: 2s;
+      background-color: #4958a7de;
+}
+.form .link-f:hover{
+      background-color: #4958a7de;
+      border: 2px solid #4958a7de;
+      transition: 2s;
+      color: #f  ;
+}
+.form .link-e{
+      width: 230px;
+      height: 39px;
+      position: absolute;
+      top: 384px;
+      left: 54px;
+      margin: auto;
+      border-radius: 31px;
+      border: 2px solid #ced4da;
+      color: #bfa7a7;
+      font-weight: 500;
+      transition: 2s;
+}
+.form .link-e:hover{
+      background-color: #4958a7de;
+      border: 2px solid #4958a7de;
+      transition: 2s;
+      color: #fff;
+}
+.form a{
+      text-align: center;
+      font-weight: 400;
+      display: block;
+      text-decoration: none;
+      list-style: none;
+      font-size: 13px;
+}
+.icon{
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 475px;
+      left: 45px;
+      background-color: #4958a7de;
+      border-radius: 50%;
+}
+.icon-2{
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 475px;
+      left: 145px;
+      background-color: #f31c1c;
+      border-radius: 50%;
+}
+.icon-3{
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      top: 475px;
+      left: 240px;
+      background-color: #4958a7de;
+      border-radius: 50%;
+}
+.lable{
+      color: #e4e3e0;
+      position: absolute;
+      top: 10px;
+      left: 13px;
+      font-weight: 600;
+}
+.down-p{
+      position: absolute;
+      top: 552px;
+      left: 77px;
+      font-size: 14px;
+      color: #bfa7a7;
+      font-weight: 500;
+
+}
+/*-------------log in sector---------------*/
+.top-img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 250px
+}
+.top-header p{
+      position: absolute;
+      top: 45px;
+      left: 7px;
+      font-size: 18px;
+      font-weight: 500;
+      color: #dcd5d5;
+}
+.top-header h3{
+      position: absolute;
+      top: 64px;
+      left: 7px;
+      font-size: 40px;
+      font-weight: 500;
+      color: #dcd5d5;
+}
+.email-box{
+      width: 262px;
+      height: 45px;
+      position: absolute;
+      top: 317px;
+      left: 34px;
+      padding-left: 10px;
+      border-radius: 11px;
+      border: 2px solid #aaaabd;
+      display: block;
+      transition: 2s;
+      font-weight: 400;
+}
+.email-box:hover{
+      border: 2px solid #6363ad;
+      transition: 2s;
+}
+.email-lable{
+      position: absolute;
+      top: 308px;
+      background: #fff;
+      left: 55px;
+      font-size: 9px;
+      padding: 3px;
+      color: #aaaabd;
+}
+.pass-box{
+      width: 262px;
+      height: 45px;
+      position: absolute;
+      top: 375px;
+      left: 34px;
+      padding-left: 10px;
+      border-radius: 11px;
+      border: 2px solid #aaaabd;
+      transition: 2s;
+      font-weight: 400;
+         
+}
+.pass-box:hover{
+      border: 2px solid #6363ad;
+      transition: 2s;
+}
+.pass-lable{
+      position: absolute;
+      top: 365px;
+      background: #fff;
+      left: 55px;
+      font-size: 9px;
+      padding: 3px;
+      color: #aaaabd;
+}
+.f-pass{
+      position: absolute;
+      top: 425px;
+      left: 199px;
+      font-size: 11px;
+}
+.sent a{
+      text-decoration: none;
+      position: absolute;
+      top: 464px;
+      left: 108px;
+      background: #4958a7de;
+      width: 111px;
+      height: 35px;
+      border-radius: 32px;
+      list-style: none;
+      color: #dcd5d5;
+      font-weight: 500;
+      transition: 2s;
+}
+.sent a:hover{
+      background-color: #825eafde;
+      color: #fff;
+      transition: 2s;
+}
+/*---------------  sign up sector  -------------------*/
+.text-box{
+      width: 262px;
+      height: 45px;
+      position: absolute;
+      top: 258px;
+      left: 34px;
+      padding-left: 10px;
+      border-radius: 11px;
+      border: 2px solid #aaaabd;
+      transition: 2s;
+      font-weight: 400;
+}
+.text-box:hover{
+      border: 2px solid #6363ad;
+      transition: 2s;
+}
+.user-lable{
+      position: absolute;
+      top: 250px;
+      background: #fff;
+      left: 55px;
+      font-size: 9px;
+      padding: 3px;
+      color: #aaaabd;
+}
